@@ -1,0 +1,95 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    background-color: #333;       /* Dark background color for the navbar */
+    padding: 10px;                /* Padding inside the navbar */
+    justify-content: center;      /* Centers the navbar links */
+}
+
+/* Navbar links styling */
+.nav-link {
+    color: white;                 /* White text color */
+    text-decoration: none;        /* Removes underline */
+    padding: 10px 20px;           /* Adds padding around each link */
+    margin: 0 10px;               /* Adds spacing between links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+    background-color: #555;       /* Changes background color on hover */
+    border-radius: 5px;           /* Rounds corners on hover */
+}
+
+/* Responsive navbar for smaller screens */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;   /* Stacks links vertically on small screens */
+        align-items: center;
+    }
+    .nav-link {
+        margin: 5px 0;            /* Adjusts spacing for vertical layout */
+    }
+}
+
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffebcc;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #d35400;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Testimonial section styling */
+.testimonial-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly; 
+    padding: 20px;
+}
+
+/* Individual testimonial styling */
+.testimonial {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 1em;
+    color: #555;
+    margin: 0 0 10px;
+    font-style: italic;
+}
+
+.customer-name {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #d35400;
+    margin: 0;
+}

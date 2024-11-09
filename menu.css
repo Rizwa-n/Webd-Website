@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffebcc;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #d35400;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Menu section styling */
+.menu-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-section h2 {
+    color: #d35400;
+    font-size: 1.8em;
+    margin-top: 30px;
+    border-bottom: 2px solid #d35400;
+    padding-bottom: 5px;
+}
+
+/* Individual menu item styling */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.menu-item p {
+    margin: 5px 0 0;
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* Price styling */
+.price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #d35400;
+}
