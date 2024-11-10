@@ -7,40 +7,6 @@ body {
     color: #333;
 }
 
-/* Navbar styling */
-.navbar {
-    display: flex;
-    background-color: #333;       /* Dark background color for the navbar */
-    padding: 10px;                /* Padding inside the navbar */
-    justify-content: center;      /* Centers the navbar links */
-}
-
-/* Navbar links styling */
-.nav-link {
-    color: white;                 /* White text color */
-    text-decoration: none;        /* Removes underline */
-    padding: 10px 20px;           /* Adds padding around each link */
-    margin: 0 10px;               /* Adds spacing between links */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-
-/* Hover effect for links */
-.nav-link:hover {
-    background-color: #555;       /* Changes background color on hover */
-    border-radius: 5px;           /* Rounds corners on hover */
-}
-
-/* Responsive navbar for smaller screens */
-@media (max-width: 600px) {
-    .navbar {
-        flex-direction: column;   /* Stacks links vertically on small screens */
-        align-items: center;
-    }
-    .nav-link {
-        margin: 5px 0;            /* Adjusts spacing for vertical layout */
-    }
-}
-
 
 /* Header styling */
 header {
@@ -76,7 +42,8 @@ header p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 15px;
     padding: 20px;
-    width: 300px;
+    width: 400px;
+    height: 100px;
     text-align: center;
 }
 
